@@ -1,6 +1,10 @@
 # HR-Dashboard-MySQL-PowerBI
 
+[RHH Analisis 01.pdf](https://github.com/MarkAgusBravo/Proyecto-de-RRH-con-SQL-PowerBI-HR-Dashboard/files/15205538/RHH.Analisis.01.pdf)
 
+
+
+[RHH Analisis 02.pdf](https://github.com/MarkAgusBravo/Proyecto-de-RRH-con-SQL-PowerBI-HR-Dashboard/files/15205544/RHH.Analisis.02.pdf)
 
 ## Data Used
 
