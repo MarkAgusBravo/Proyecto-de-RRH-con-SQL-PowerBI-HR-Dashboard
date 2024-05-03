@@ -9,7 +9,7 @@
 
 
 
-# Aclaracion los datos estan resueltos en ingles por mi parte y traducidos por mi
+# Aclaracion los datos estan resueltos en ingles por mi  y traducidos por mi
 
 ## Datos usados
 
