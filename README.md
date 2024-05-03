@@ -1,47 +1,53 @@
-# HR-Dashboard-MySQL-PowerBI
+# RHH-PROYECTO-MySQL-PowerBI - Limpieza y Analisis de RRH
 
-[RHH Analisis 01.pdf](https://github.com/MarkAgusBravo/Proyecto-de-RRH-con-SQL-PowerBI-HR-Dashboard/files/15205538/RHH.Analisis.01.pdf)
+ ![1714777378213-39ee6615-230e-48b5-98f8-ecca6c3b081f_1](https://github.com/MarkAgusBravo/Proyecto-de-RRH-con-SQL-PowerBI-HR-Dashboard/assets/101859664/fc6a04c0-284e-4fe8-8a95-9fba01b9d393)
+
+ ![1714777401989-ae2c61b0-f27c-4a18-b94c-44d91b8dece1_1](https://github.com/MarkAgusBravo/Proyecto-de-RRH-con-SQL-PowerBI-HR-Dashboard/assets/101859664/3dbef33a-c4ea-4de0-ab97-1fb20310de6e)
 
 
 
-[RHH Analisis 02.pdf](https://github.com/MarkAgusBravo/Proyecto-de-RRH-con-SQL-PowerBI-HR-Dashboard/files/15205544/RHH.Analisis.02.pdf)
 
-## Data Used
 
-**Data** - HR Data with over 22000 rows from the year 2000 to 2020.
 
-**Data Cleaning & Analysis** - MySQL Workbench
+# Aclaracion los datos estan resueltos en ingles por mi parte y traducidos por mi
 
-**Data Visualization** - PowerBI
+## Datos usados
 
-## Questions
+**Datos** - Datos de Recursos humanosmas de  22000 columnas del año 2000 al 2020.
 
-1. What is the gender breakdown of employees in the company?
-2. What is the race/ethnicity breakdown of employees in the company?
-3. What is the age distribution of employees in the company?
-4. How many employees work at headquarters versus remote locations?
-5. What is the average length of employment for employees who have been terminated?
-6. How does the gender distribution vary across departments and job titles?
-7. What is the distribution of job titles across the company?
-8. Which department has the highest turnover rate?
-9. What is the distribution of employees across locations by state?
-10. How has the company's employee count changed over time based on hire and term dates?
-11. What is the tenure distribution for each department?
+**Analisis de datos y limpieza de datos/Data Cleaning & Analysis** - Analisis y limpieza de datos utilizada con MySQL 
 
-## Summary of Findings
- - There are more male employees
- - White race is the most dominant while Native Hawaiian and American Indian are the least dominant.
- - The youngest employee is 20 years old and the oldest is 57 years old
- - 5 age groups were created (18-24, 25-34, 35-44, 45-54, 55-64). A large number of employees were between 25-34 followed by 35-44 while the smallest group was 55-64.
- - A large number of employees work at the headquarters versus remotely.
- - The average length of employment for terminated employees is around 7 years.
- - The gender distribution across departments is fairly balanced but there are generally more male than female employees.
- - The Marketing department has the highest turnover rate followed by Training. The least turn over rate are in the Research and development, Support and Legal departments.
- - A large number of employees come from the state of Ohio.
- - The net change in employees has increased over the years.
-- The average tenure for each department is about 8 years with Legal and Auditing having the highest and Services, Sales and Marketing having the lowest.
+**Visualizacion de datos/Data Visualization** - PowerBI, Visualizacion de datos realizada con Power BI
 
-## Limitations
+## Preguntas
 
-- Some records had negative ages and these were excluded during querying(967 records). Ages used were 18 years and above.
-- Some termdates were far into the future and were not included in the analysis(1599 records). The only term dates used were those less than or equal to the current date.
+- 1.¿Cuál es la proporción de género entre los empleados de la empresa?
+- 2.¿Cuál es la distribución racial/étnica de los empleados en la empresa?
+- 3.¿Cómo se distribuye la edad de los empleados en la empresa?
+- 4.¿Cuántos empleados trabajan en la sede central versus ubicaciones remotas?
+- 5.¿Cuál es la duración promedio del empleo para los empleados que han sido despedidos?
+- 6.¿Cómo varía la distribución de género en diferentes departamentos y cargos?
+- 7.¿Cuál es la distribución de cargos en la empresa?
+- 8.¿Qué departamento tiene la tasa de rotación más alta?
+- 9.¿Cuál es la distribución de empleados por ubicaciones según el estado?
+- 10.¿Cómo ha cambiado el número de empleados de la empresa con el tiempo basado en las fechas de contratación y finalización?
+- 11.¿Cuál es la distribución de la permanencia en cada departamento?
+
+## Conclusiones del analisis.
+- Existen más empleados masculinos que femeninos.
+- La raza blanca es la más predominante, mientras que los nativos hawaianos y los indígenas americanos son los menos predominantes.
+- El empleado más joven tiene 20 años y el más anciano tiene 57 años.
+- Se crearon 5 grupos de edad (18-24, 25-34, 35-44, 45-54, 55-64). Un gran número de empleados se encontraban entre los 25 y 34 años, seguido por el grupo de 35-44 años, mientras que el grupo más pequeño estaba en el rango de 55-64 años.
+- Un gran número de empleados trabaja en la sede central en comparación con los que trabajan de forma remota.
+- La duración promedio de empleo para los empleados despedidos es de alrededor de 7 años.
+- La distribución de género en los departamentos es bastante equilibrada, pero generalmente hay más empleados masculinos que femeninos.
+- El departamento de Marketing tiene la tasa de rotación más alta, seguido por el de Capacitación. Las tasas de rotación más bajas se encuentran en los departamentos de Investigación y Desarrollo, Soporte y Legal.
+- Un gran número de empleados proviene del estado de Ohio.
+- El cambio neto en empleados ha aumentado con el tiempo.
+- La permanencia promedio en cada departamento es de alrededor de 8 años, con Legal y Auditoría teniendo la más alta y Servicios, Ventas y Marketing teniendo la más baja.
+
+
+## Limitaciones y modificaciones que se hicieron en el analisis
+
+- Algunos registros tenían edades negativas y fueron excluidos durante la consulta (967 registros). Las edades utilizadas fueron de 18 años en adelante.
+- Algunas fechas de término estaban muy en el futuro y no se incluyeron en el análisis (1599 registros). Las únicas fechas de término utilizadas fueron aquellas menores o iguales a la fecha actual.
